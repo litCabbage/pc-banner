@@ -21,6 +21,17 @@
       left: 50%;
       margin-left: -960px;
     }
+    /* 利用媒体查询当超出图片宽度时，自适应 */
+    /* 1919px为banner的图片宽度 */
+    @media (min-width: 1919px) {
+      .banner {
+        height: 100%;
+      }
+      .banner img {
+        width: 100%;
+        height: auto;
+      }
+    }
   </style>
 </head>
 
